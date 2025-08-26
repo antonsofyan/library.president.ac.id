@@ -1,0 +1,55 @@
+#open-educational-resources {
+    font-family: Arial, sans-serif;
+    padding: 40px 60px;
+    max-width: 900px;
+    margin: auto; /* agar section di tengah */
+    line-height: 1.6;
+    color: #222;
+    font-size: 15px; /* ukuran teks lebih kecil */
+}
+
+#open-educational-resources h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#open-educational-resources h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#open-educational-resources ul,
+#open-educational-resources ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#open-educational-resources li {
+    margin-bottom: 8px;
+}
+
+#open-educational-resources a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#open-educational-resources a:hover {
+    text-decoration: underline;
+}
+#open-educational-resources a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#open-educational-resources a:hover {
+    text-decoration: underline;
+}
+
+/* Tambahkan underline default hanya untuk link yang pakai class ini */
+#open-educational-resources a.underline-link {
+    text-decoration: underline;
+}

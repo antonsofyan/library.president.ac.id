@@ -1,0 +1,433 @@
+.rules-section {
+    position: relative;
+    background: url('../img/library-02.jpg') center center / cover no-repeat;
+    padding: 70px 100px;
+    background-size: 100% auto;
+    color: #fff;
+}
+
+.rules-section .overlay {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+}
+
+.rules-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.rules-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.rules-section p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.rules-section .rules-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.general-rules-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.general-rules-section .section-title {
+    color: #e50936; /* merah seperti di gambar */
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.general-rules-section .rule-list {
+    counter-reset: item;
+    padding-left: 20px;
+}
+
+.general-rules-section .rule-list > li {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.general-rules-section .rule-list ul {
+    margin-top: 8px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.general-rules-section .rule-list ul li {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+/*=============
+who is lib
+===============*/
+.library-user-section {
+    background: linear-gradient(to bottom, #1e2378, #e51a67);
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.library-user-section .container {
+    max-width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.library-user-section .image-wrapper {
+    flex: 0 0 auto;
+    max-width: 400px;
+}
+
+.library-user-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.library-user-section .text-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.library-user-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.library-user-section p,
+.library-user-section ul li {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.library-user-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.library-user-section .text-warning {
+    color: #ffd700 !important;
+}
+
+/* Responsif mobile: baru stack jika < 576px */
+@media (max-width: 575.98px) {
+    .library-user-section .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .library-user-section .image-wrapper {
+        max-width: 100%;
+    }
+
+    .library-user-section .text-content {
+        margin-top: 30px;
+    }
+}
+
+
+/*=========
+Borrowning
+===========*/
+.borrowing-procedures-section {
+    padding: 100px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.borrowing-procedures-section .container {
+    max-width: 1200px;
+}
+
+.borrowing-procedures-section .procedure-text {
+    flex: 1 1 60%;
+    min-width: 300px;
+}
+
+.borrowing-procedures-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1e1e4f;
+}
+
+.borrowing-procedures-section .procedure-list {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.borrowing-procedures-section .procedure-list li {
+    margin-bottom: 15px;
+}
+
+.borrowing-procedures-section .procedure-image {
+    max-width: 300px;
+}
+
+.borrowing-procedures-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Stack */
+@media (max-width: 768px) {
+    .borrowing-procedures-section .container {
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+    }
+
+    .borrowing-procedures-section .procedure-text {
+        text-align: left;
+    }
+
+    .borrowing-procedures-section .procedure-image {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+}
+
+.general-rules-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    color: #333;
+}
+.general-rules-section .section-title {
+    color: #e50936;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/*=============
+Librarians
+===============*/
+.librarians-banner {
+    position: relative;
+    background: url('/assets/img/rules/libralians-01.jpg') center center / cover no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.librarians-banner .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* overlay gelap */
+    z-index: 1;
+}
+
+.librarians-banner .container {
+    position: relative;
+    z-index: 2;
+}
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    /* Ubah nilai di bawah ini sesuai kebutuhan */
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/*=============
+Responsif
+===============*/
+/* Umum: Flex responsif */
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Untuk layout gambar dan teks berdampingan */
+.responsive-two-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.responsive-two-column > div {
+    flex: 1 1 45%;
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 768px) {
+    .responsive-two-column {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .responsive-two-column > div {
+        flex: 1 1 100%;
+    }
+
+    .rules-section, .general-rules-section,
+    .library-user-section, .borrowing-procedures-section {
+        padding: 50px 15px;
+    }
+
+    .rules-section h2,
+    .library-user-section h2,
+    .borrowing-procedures-section h2 {
+        font-size: 26px;
+    }
+
+    .rules-section p,
+    .library-user-section p,
+    .borrowing-procedures-section p,
+    .general-rules-section .rule-list li {
+        font-size: 15px;
+    }
+
+    .librarians-banner {
+        height: 150px;
+    }
+
+    .rules-section .container,
+    .general-rules-section .container,
+    .library-user-section .container,
+    .borrowing-procedures-section .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/*======================
+E-resource
+========================*/
+.notfound-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.notfound-container h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.notfound-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-box button {
+    background-color: #0088bb;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #0077aa;
+}
+
+/*==================
+Elementary Teacher
+====================*/
+/* ==== Global Style ==== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+/* ==== Banner Section ==== */
+.banner-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==== Content Section ==== */
+.content-section {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ==== Table Wrapper ==== */
+.table-wrapper {
+    width: 90%;
+    overflow-x: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* ==== Table Structure ==== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #999;
+}
+
+/* ==== Table Header with Multiple Rows ==== */
+thead tr:first-child th {
+    background-color: #ffffff; /* Header baris pertama */
+}
+
+thead tr:nth-child(2) th {
+    background-color: #e1e1e1; /* Header baris kedua */
+}
+
+/* ==== Table Cells (Header and Body) ==== */
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+/* ==== Alternating Row Colors in Body ==== */
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+

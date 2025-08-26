@@ -1,0 +1,251 @@
+/* === Seminar Article Section === */
+.seminar-article-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.seminar-article-section .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* === Title & Meta === */
+.seminar-article-section .post-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.seminar-article-section .post-meta {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* === Paragraph Content === */
+.seminar-article-section p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* === Single Image (default image) === */
+.seminar-article-section img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 20px auto;
+}
+
+/* === Image Pair: Gambar Kanan-Kiri === */
+.image-pair {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    max-width: 100%;
+}
+
+.image-pair img {
+    flex: 1 1 48%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Seminar Gallery (1-2 Gambar atau lebih) === */
+.seminar-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.seminar-gallery img {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollable image gallery */
+.scroll-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Style untuk setiap gambar */
+.scroll-gallery img {
+    flex: 0 0 auto;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+}
+
+/* Optional: Hilangkan scrollbar */
+.scroll-gallery::-webkit-scrollbar {
+    display: none;
+}
+
+img.rounded {
+    border-radius: 10px;
+}
+
+.post-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-section p {
+    text-align: justify;
+    line-height: 1.8;
+    color: #444;
+}
+
+img.rounded {
+    border-radius: 10px;
+}
+
+img.shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Post Navigation === */
+.post-navigation-wrapper {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav-link-post {
+    color: #0077b6;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link-post:hover {
+    color: #023e8a;
+    text-decoration: underline;
+}
+
+/* === Responsive Layout (Mobile) === */
+@media (max-width: 768px) {
+    .seminar-article-section img {
+        width: 100%;
+    }
+
+    .image-pair img {
+        flex: 1 1 100%;
+    }
+
+    .seminar-gallery img {
+        width: 100%;
+    }
+}
+
+.small-img {
+    max-width: 100%;
+    max-height: 280px; /* bisa juga 250px, atau sesuai kebutuhan */
+    object-fit: contain;
+}
+
+/*=========================================================*/
+.springer-section {
+    background: #f7f7f7;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.springer-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.col-title h2 {
+    font-size: 28px;
+    color: #222;
+}
+
+.col-title .springer-link {
+    display: inline-block;
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.springer-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.springer-steps .step {
+    flex: 1 1 250px;
+    max-width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.springer-steps .step img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.springer-steps .step h3 {
+    color: #0077cc;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.springer-steps .step p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+.custom-img {
+    max-height: 300px; /* Atur sesuai kebutuhan */
+    object-fit: cover; /* Supaya gambar tetap proporsional dan tidak gepeng */
+}

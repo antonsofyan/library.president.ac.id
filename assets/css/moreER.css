@@ -1,0 +1,45 @@
+#other-e-resources {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+}
+
+#other-e-resources h2 {
+    text-align: center;
+    color: #3a8ce4;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#other-e-resources h3,
+#other-e-resources h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+}
+
+#other-e-resources ol {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#other-e-resources li {
+    margin-bottom: 10px;
+    list-style-position: outside;
+}
+
+#other-e-resources a {
+    color: #007bff;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+#other-e-resources a:hover {
+    text-decoration: underline;
+}

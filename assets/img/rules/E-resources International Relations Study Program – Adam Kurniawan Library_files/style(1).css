@@ -1,0 +1,45 @@
+/*
+Theme Name: Fluida Child
+Theme URI: http://www.cryoutcreations.eu/wordpress-themes/fluida
+Template: fluida
+Author: Cryout Creations
+Author URI: http://www.cryoutcreations.eu
+Description: Fluida is a modern, crystal clear and squeaky clean theme. It shines bright with a fluid and responsive layout and carries under its hood a light and powerful framework. All the theme's graphics are created using HTML5, CSS3 and icon fonts so it's extremely fast to load. It's also SEO ready, using microformats and Google readable Schema.org microdata. Fluida also provides over 100 customizer theme settings that enable you to take full control of your site. You can change everything starting with layout (content and up to 2 sidebars), site and sidebar widths, colors, (Google) fonts and font sizes for all the important elements of your blog, featured images, post information metas, post excerpts, comments and much more. Fluida also features social menus with over 100 social network icons available in 4 locations, 3 menus, 6 widget areas, 8 page templates, all post formats, is translation ready, RTL and compatible with older browsers. If you want to take things further via a child theme you'll find clean code, either hookable or pluggable functions with clear descriptions and over 25 action hooks ready for action. Fluida - because solid is so overrated!
+Tags: one-column,two-columns,three-columns,right-sidebar,left-sidebar,grid-layout,custom-background,custom-colors,custom-header,flexible-header,custom-menu,featured-image-header,featured-images,front-page-post-form,full-width-template,footer-widgets,microformats,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,blog,photography,portfolio
+Version: 1.5.5.1531460202
+Updated: 2018-07-13 05:36:42
+
+*/
+
+/* navbar */
+#site-title { font-size: 130% !important; }
+@media (max-width: 800px){
+	.cryout #nav-toggle { padding: 0 5px; }
+}
+/* page : remove header bottom white-area */
+main article.page { margin-bottom: 0px!important; }
+/* page : remove header white-area */
+.article-inner { padding-top: 0px!important; padding-bottom: 0px!important; }
+.article-inner .entry-content { padding-top: 0px!important; }
+section#comments { padding-top: 0px!important; }
+/* footer: hiding power by */
+footer #footer-inside div:last-child { display: none!important; }
+footer #footer-inside a, #sfooter a { color: #fff!important; }
+footer #footer-inside a:hover, #sfooter a:hover { color: #fff!important; }
+/* footer: custom style */
+#site-copyright{ font-style: normal!important; }
+@media (max-width: 800px){	
+	.custom-footer-item { display: block; }
+	.custom-footer-item-divider { display: none; }
+}
+/* sidebar */
+aside.widget-area.sidey{ background-color: #fff; }
+aside.widget-area.sidey section{ }
+aside.widget-area.sidey section .widget-title{ border-bottom: 1px solid #ccc; }
+/* post */
+article.post .article-inner header .entry-title{ padding-bottom: 10px!important; }
+article.post .article-inner .entry-content{
+	margin-top: 10px!important; 
+	border-top: 1px solid #ccc;
+	padding-top: 25px!important; 
+}

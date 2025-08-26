@@ -1,0 +1,148 @@
+.hero-section {
+    background-image: linear-gradient(to bottom right, rgba(139, 0, 0, 0.5), rgba(0, 0, 139, 0.5)),
+    url('/assets/img/facilities/page-top.jpg'); /* Ganti dengan path gambar kamu */
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+
+.services-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #1f3f5b;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*===============
+
+================*/
+
+.service-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px 0;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 80, 0.5); /* biru tua semi transparan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.overlay.dark-olive {
+    background-color: rgba(45, 45, 0, 0.5); /* hijau kecoklatan semi transparan */
+}
+
+.content {
+    max-width: 800px;
+    z-index: 2;
+}
+
+.content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h2 {
+    color: white;
+}
+
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Segitiga putih bawah */
+.triangle {
+    position: absolute;
+    bottom: 370px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    z-index: 3;
+}
+
+/*===============
+OPAC
+=================*/
+/* Tambahan overlay dengan warna berbeda */
+.overlay.maroon {
+    background-color: rgba(80, 0, 0, 0.6); /* Merah maroon semi transparan */
+}
+
+.overlay.purple {
+    background-color: rgba(50, 0, 80, 0.6); /* Ungu tua semi transparan */
+}
+
+/* Variasi posisi konten */
+.service-section.right .overlay {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.service-section.left .overlay {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+/* Tombol Akses */
+.btn-access {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00d2f7;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-access:hover {
+    background-color: #00b5d4;
+}
+
+/* Responsive tweak (opsional) */
+@media (max-width: 768px) {
+    .service-section {
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+    .service-section.left .overlay,
+    .service-section.right .overlay {
+        justify-content: center;
+    }
+}
