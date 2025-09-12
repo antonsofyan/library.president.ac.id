@@ -2,6 +2,23 @@ const articlesPerPage = 10;
 const pagesPerSet = 10;
 
 const articles = [
+    {
+        title: "Reference Librarian Introduces President University Library at PreUni Nights",
+        date: "September 6, 2025",
+        desc: `President University, September 6, 2025 — As part of the PreUni Nights program, the President
+University Library held an online introduction session via Zoom, led by the Reference Librarian.
+The event aimed to welcome and familiarize new students with the library’s facilities, services,
+and digital resources. …`,
+        link: "/pagesNews/pages-01/content-12.html"
+    },
+    {
+        title: "Introducing Mendeley and Zotero to Medical Faculty Lecturers at President University",
+        date: "Semptember 4, 2025",
+        desc: `President University, September 4, 2025 — As part of the RINGKAS program, the President
+University Library organized an online session via Zoom to introduce two powerful reference
+management tools, Mendeley and Zotero, to lecturers from the Faculty of Medicine …`,
+        link: "/pagesNews/pages-01/content-11.html"
+    },
     // Page 1
     {
         title: "Preventing Drug Abuse Through Law and Family Seminar",
@@ -189,7 +206,7 @@ const articles = [
         link: "pagesNews/pages-02/content-20.html"
     },
 
-//     pages 3 =====================================================
+    //     pages 3 =====================================================
     {
         title: "Information Literacy Event: Rules, Regulations & OPAC",
         date: "March 12, 2024",
@@ -279,7 +296,7 @@ const articles = [
         image: "assets/img/news/pages-3/border-14.png",
         link: "pagesNews/pages-03/content-30.html"
     },
-//     Pages 4 ==================================================================
+    //     Pages 4 ==================================================================
     {
         title: "Information Literacy Event: Financial Literacy and Economy, What College Students Need to Know",
         date: "Desember 20, 2023",
@@ -369,7 +386,7 @@ const articles = [
         image: "assets/img/news/pages-4/border-22.png",
         link: "pagesNews/pages-04/content-40.html"
     },
-//     pages 5 ============================================================================
+    //     pages 5 ============================================================================
     {
         title: "Information Literacy Event: How to Apply for Your Library Clearance",
         date: "July 13, 2023",
@@ -568,7 +585,7 @@ const articles = [
         image: "assets/img/news/pages-6/border-41.jpg",
         link: "pagesNews/pages-06/content-60.html"
     },
-// pages 7 ======================================================================
+    // pages 7 ======================================================================
 
     {
         title: "Information Literacy Agenda Writing Papers and Ethics in Publishing",
@@ -668,7 +685,7 @@ const articles = [
         link: "pagesNews/pages-07/content-70.html"
     },
 
-//     Pages 8 ==================================================================================================
+    //     Pages 8 ==================================================================================================
     {
         title: "Book Donation Requirement",
         date: "June 9, 2022",
@@ -760,7 +777,7 @@ const articles = [
         image: "assets/img/news/pages-8/border-60.jpg",
         link: "pagesNews/pages-08/content-80.html"
     },
-//     Pages 9 =========================================================================
+    //     Pages 9 =========================================================================
     {
         title: "Library Open For Public",
         date: " January 17, 2022",
@@ -857,7 +874,7 @@ const articles = [
         image: "assets/img/news/pages-9/border-64.jpeg",
         link: "pagesNews/pages-09/content-90.html"
     },
-//     Pages 10 =========================================================================
+    //     Pages 10 =========================================================================
 
     {
         title: "Library Closed",
@@ -950,7 +967,7 @@ const articles = [
                dihasilkan oleh satuan …`,
         link: "pagesNews/pages-10/content-100.html"
     },
-// Pages 11 ==========================================================
+    // Pages 11 ==========================================================
     {
         title: "Free e-Resources List",
         date: " July 20, 2020",
@@ -1048,7 +1065,7 @@ const articles = [
         image: "assets/img/news/pages-11/border-76.jpg",
         link: "pagesNews/pages-11/content-110.html"
     },
-// Pages 12 ==========================================================
+    // Pages 12 ==========================================================
     {
         title: "Adam Kurniawan Competition",
         date: " August 16, 2018",
@@ -1139,7 +1156,7 @@ const articles = [
         image: "assets/img/news/pages-12/border-86.jpg",
         link: "pagesNews/pages-12/content-120.html"
     },
-// Pages 13 ==========================================================
+    // Pages 13 ==========================================================
     {
         title: "Indonesia Cooperative Day",
         date: " July 10, 2018",
