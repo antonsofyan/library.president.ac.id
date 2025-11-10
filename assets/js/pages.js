@@ -3,6 +3,28 @@ const pagesPerSet = 10;
 
 const articles = [
     {
+         title: "The library and Emerald Insight are hosting a workshop for business faculty, lecturers, and students.",
+        date: "October 10, 2025",
+        desc: `President University, October 10, 2025 — In collaboration with Emerald Insight, the Adam Kurniawan Library hosted an online Emerald Workshop via Google Meet for 65 participants across bachelor's, master's, and doctoral programs. The session guided attendees in using the Emerald database to find and evaluate peer-reviewed research, understand journal metrics, export citations, and integrate sources into academic writing…`,
+         link: '/pagesNews/pages-01/content-15.html'
+    },
+    {
+        title: "Library Conducts Business Economics Sessions for Management Students",
+        date: "October 9, 2025",
+        desc: `President University, October 7 & 9, 2025 — The Adam Kurniawan Library delivered guest lectures in Business Economics for the Management program, led by Reference Librarian Laurensius Yoel Fabian. Two sessions (≈35 students each) covered finding and evaluating credible economic and business sources, database navigation, citation tools, and applying evidence-based information to assignments—linking theory with current market data. The integration underscored the library’s role as an active partner in students’ research and analytical development…`,
+         link: '/pagesNews/pages-01/content-14.html'
+    },
+    {
+        title: "Library Joins Academic Writing Class for Business Administration Students",
+        date: "October 6, 2025",
+        desc: `President University, October 6, 2025 — The Adam Kurniawan Library joined an academic writing class for the 
+        Business Administration program, with Reference Librarian Laurensius Yoel Fabian as guest lecturer. 
+        The session guided 26 students on strategies to find, evaluate, and cite scholarly sources, 
+        with hands-on demos of relevant digital databases. The initiative highlighted the library's reference services and strengthened students
+         long-term research skills…`,
+         link: '/pagesNews/pages-01/content-13.html'
+    },
+    {
         title: "Reference Librarian Introduces President University Library at PreUni Nights",
         date: "September 6, 2025",
         desc: `President University, September 6, 2025 — As part of the PreUni Nights program, the President
@@ -1246,6 +1268,7 @@ function renderArticles(page) {
     const start = (page - 1) * articlesPerPage;
     const end = start + articlesPerPage;
     const items = articles.slice(start, end);
+    console.log('items :', items);
 
     items.forEach(item => {
         container.innerHTML += `
