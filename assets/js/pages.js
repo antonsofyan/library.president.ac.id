@@ -3,6 +3,12 @@ const pagesPerSet = 10;
 
 const articles = [
     {
+        title: "Publish with Emerald: How to Get Publish in International Journals",
+        date: "October 31, 2025",
+        desc: `The Adam Kurniawan Library hosted a practical webinar on October 31, 2025, featuring Irwan Sukardi from Emerald Publishing. Lecturers and postgraduate students learned essential strategies for publishing in international journals, from manuscript development to navigating peer review. The interactive session gave participants direct access to an industry expert who addressed real publication challenges and offered actionable advice for early-career researchers looking to increase their research visibility....`,
+        link: '/pagesNews/pages-01/content-16.html'
+    },
+    {
          title: "The library and Emerald Insight are hosting a workshop for business faculty, lecturers, and students.",
         date: "October 10, 2025",
         desc: `President University, October 10, 2025 — In collaboration with Emerald Insight, the Adam Kurniawan Library hosted an online Emerald Workshop via Google Meet for 65 participants across bachelor's, master's, and doctoral programs. The session guided attendees in using the Emerald database to find and evaluate peer-reviewed research, understand journal metrics, export citations, and integrate sources into academic writing…`,
