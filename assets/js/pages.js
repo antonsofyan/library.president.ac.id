@@ -2,6 +2,30 @@ const articlesPerPage = 10;
 const pagesPerSet = 10;
 
 const articles = [
+     {
+        title: "President University Library Hosts HukumOnline Workshop to Strengthen Legal Research Skills",
+        date: "November 19, 2025",
+        desc: `On November 19, the Adam Kurniawan Library hosted a HukumOnline workshop at the Charles Himawan Auditorium to strengthen students' legal research skills. Led by Husna Syahirah Agustine from HukumOnline, the session walked participants through key platform features, search tools, and citation functions while stressing the importance of accurate legal references. The program equipped law and social science students with practical techniques for accessing regulations and verifying documents, underscoring the library's commitment to digital literacy and academic excellence...`,
+        link: '/pagesNews/pages-01/content-20.html'
+    },
+    {
+        title: "The President University Library and the Bekasi Regency Library Department held a seminar on Indonesia's Diplomacy and Heroism.",
+        date: "November 20, 2025",
+        desc: `On November 20 at the BI Corner of Adam Kurniawan Library, President University partnered with DISARPUS Bekasi to host a seminar on Indonesia's diplomacy and heroism on the world stage. Led by Dr. Jeanne Francoise, the session explored how historical values, national identity, and modern peacekeeping shape the country's global image. The event deepened participants' understanding of Indonesia's role in international forums and reinforced both institutions' commitment to literacy, critical thinking, and global awareness...`,
+        link: '/pagesNews/pages-01/content-19.html'
+    },
+    {
+        title: "Adam Kurniawan Library Representative Introduces Key Academic Tools in Academic Writing Classes",
+        date: "November 6-7, 2025",
+        desc: `On November 6-7 in Cikarang, the Adam Kurniawan Library delivered academic support sessions to Academic Writing classes across Informatics, Business Administration, and Accounting programs. Over two days, students were introduced to key digital tools and library resources aimed at improving research and writing quality. Each class received aligned guidance designed to strengthen their academic skills and help them make better use of university learning platforms...`,
+        link: '/pagesNews/pages-01/content-18.html'
+    },
+    {
+        title: "Adam Kurniawan Library Representative Highlights University E-Resources in Industrial Engineering Class Presentation",
+        date: "November 3, 2025",
+        desc: `On November 3 in Cikarang, the Adam Kurniawan Library visited Industrial Engineering students to walk them through the campus’ digital learning ecosystem. The session introduced key e-resources for research and coursework, highlighted how to access journals and databases, and gave practical guidance on using Turnitin responsibly. Students left with a clearer picture of where to find academic materials and how plagiarism detection supports integrity in their writing…`,
+        link: '/pagesNews/pages-01/content-17.html'
+    },
     {
         title: "Publish with Emerald: How to Get Publish in International Journals",
         date: "October 31, 2025",
