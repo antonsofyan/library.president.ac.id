@@ -1,4 +1,4 @@
-const articlesPerPage = 10;
+const articlesPerPage = 12;
 const pagesPerSet = 10;
 
 const articles = [
