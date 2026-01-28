@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Loading News... - Adam Kurniawan Library</title>
+
+  <link href="/assets/img/logo_pu.png" rel="icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lato&family=Raleway&display=swap" rel="stylesheet">
+
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <link href="/assets/css/rules.css" rel="stylesheet">
+  <link href="/assets/css/content.css" rel="stylesheet">
+
+  <style>
+    #news-content p {
+      margin-bottom: 1.5rem;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    #news-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+      margin: 2rem auto;
+      display: block;
+    }
+
+    .image-pair img {
+      margin: 0 !important;
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 4/3;
+    }
+
+    #news-content blockquote {
+      border-left: 4px solid #007cba;
+      padding-left: 1rem;
+      margin-left: 0;
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center" style="text-decoration: none;">
+          <img src="assets/img/logo_pu.png" alt="Logo" style="height: 45px; margin-right: 10px;" />
+          <div>
+            <div style="font-size: 18px; font-weight: bold; color: #007cba;">
+              <span style="background-color: #007cba; color: #fff; padding: 2px 6px; border-radius: 3px;">A</span>
+              <span style="margin-left: 6px;">DAM KURNIAWAN LIBRARY</span>
+            </div>
+            <div style="font-size: 12px; color: #555; margin-top: 4px;">
+              Connect, Covered, Get Inspired | NPP: 3216092D0000001
+            </div>
+          </div>
+        </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="/index.html">Highlights</a></li>
+
+            <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="/about/about.html">Profile</a></li>
+                <li><a href="/about/rules.html">Rules & Regulations</a></li>
+                <li><a href="/about/partnership.html">Partnerships</a></li>
+                <li><a href="/about/librarian.html">Librarians</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown"><a href="#"><span>Collection</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://opac.president.ac.id/">Books</a></li>
+                <li><a href="http://repository.president.ac.id/">Repository</a></li>
+                <li><a href="https://library.president.ac.id/collections/resource.html">E-resource</a></li>
+                <li><a href="https://library.president.ac.id/collections/oer.html">OER</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/facilites.html">Facilities</a></li>
+            <li><a href="/news.html" class="active">News</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <section id="news-detail-section">
+      <div class="container">
+
+        <div id="loading-spinner" class="text-center py-5">
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+
+        <div id="error-message" class="text-center py-5 d-none">
+          <h3>Oops! Article not found.</h3>
+          <a href="news.html" class="btn btn-primary mt-3">Back to News</a>
+        </div>
+
+        <article id="article-wrapper" class="d-none">
+          <h1 class="post-title mb-3" id="news-title"></h1>
+
+          <div class="post-meta text-muted mb-4 d-flex align-items-center gap-2">
+            <i class="bi bi-clock text-danger"></i>
+            <span id="news-date"></span>
+          </div>
+
+          <div id="news-content">
+          </div>
+
+          <div class="post-navigation-wrapper mt-5 pt-4 border-top d-flex justify-content-between align-items-center">
+            <div class="text-start">
+              <a href="javascript:history.back()" class="btn btn-outline-secondary btn-sm">
+                &#x276E; Back
+              </a>
+            </div>
+            <div class="text-center">
+              <a href="news.html" class="btn btn-outline-primary btn-sm">
+                See All News
+              </a>
+            </div>
+            <div class="text-end"></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="footer-top bg-dark text-light py-4">
+      <div
+        class="container d-flex flex-column flex-lg-row justify-content-between align-items-center text-center text-lg-start">
+        <div>
+          <div class="fw-bold">ADAM KURNIAWAN LIBRARY</div>
+          <div>President University</div>
+          <div>
+            <i class="bi bi-telephone"></i> +62 21 8910 9762 / 63 ext 126 |
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:reference@president.ac.id"
+              class="text-light text-decoration-underline">reference@president.ac.id</a>
+          </div>
+          <div class="mt-2">
+            📸 <a href="https://www.instagram.com/adam.kurniawan.library/" target="_blank"
+              class="text-light text-decoration-underline">
+              Join our Official Instagram now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", async function () {
+      const API_URL = "http://localhost:1337/api/news";
+      const CACHE_DURATION = 1000 * 60 * 60;
+
+      const loading = document.getElementById('loading-spinner');
+      const errorDiv = document.getElementById('error-message');
+      const articleWrapper = document.getElementById('article-wrapper');
+      const titleEl = document.getElementById('news-title');
+      const dateEl = document.getElementById('news-date');
+      const contentEl = document.getElementById('news-content');
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const slug = urlParams.get('slug');
+
+      if (!slug) {
+        window.location.href = 'news.html';
+        return;
+      }
+
+      const formatContentImages = (htmlContent) => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = htmlContent;
+
+        const paragraphs = tempDiv.querySelectorAll('p');
+
+        paragraphs.forEach(p => {
+          const images = p.querySelectorAll('img');
+
+          if (images.length === 0) return;
+
+          const textContent = p.textContent.trim();
+          if (textContent.length > 5) return;
+
+          if (images.length >= 2) {
+            const pairContainer = document.createElement('div');
+            pairContainer.className = 'image-pair d-flex gap-3 justify-content-center flex-wrap my-4';
+
+            images.forEach(img => {
+              img.className = 'img-fluid rounded shadow mb-2';
+              img.style.maxWidth = '48%';
+              img.style.height = 'auto';
+              pairContainer.appendChild(img.cloneNode(true));
+            });
+
+            p.replaceWith(pairContainer);
+
+          } else if (images.length === 1) {
+            const galleryContainer = document.createElement('div');
+            galleryContainer.className = 'seminar-gallery text-center my-5';
+
+            const img = images[0];
+            img.className = 'img-fluid rounded shadow';
+
+            galleryContainer.appendChild(img.cloneNode(true));
+            p.replaceWith(galleryContainer);
+          }
+        });
+
+        return tempDiv.innerHTML;
+      };
+
+      const renderArticle = (article) => {
+        document.title = `${article.title} - Adam Kurniawan Library`;
+        titleEl.textContent = article.title;
+
+        const dateOptions = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+        dateEl.textContent = new Date(article.date).toLocaleDateString('en-US', dateOptions);
+
+        const rawHtml = marked.parse(article.content);
+
+        const formattedHtml = formatContentImages(rawHtml);
+
+        contentEl.innerHTML = formattedHtml;
+
+        loading.classList.add('d-none');
+        articleWrapper.classList.remove('d-none');
+      };
+
+      try {
+        const cacheKey = `news_detail_${slug}`;
+
+        const cachedData = localStorage.getItem(cacheKey);
+
+        if (cachedData) {
+          const parsedCache = JSON.parse(cachedData);
+          const now = new Date().getTime();
+
+          if (now - parsedCache.timestamp < CACHE_DURATION) {
+            console.log(`⚡ Load Article [${slug}] from Cache`);
+            renderArticle(parsedCache.data);
+            return;
+          }
+        }
+
+        console.log(`🌐 Fetching Article [${slug}] from Strapi...`);
+        const response = await fetch(`${API_URL}?filters[slug][$eq]=${slug}&populate=thumbnail`);
+
+        if (!response.ok) throw new Error("API Error");
+
+        const json = await response.json();
+
+        if (json.data.length === 0) {
+          loading.classList.add('d-none');
+          errorDiv.classList.remove('d-none');
+          return;
+        }
+
+        const article = json.data[0];
+
+        renderArticle(article);
+
+        const cacheObject = {
+          timestamp: new Date().getTime(),
+          data: article
+        };
+        localStorage.setItem(cacheKey, JSON.stringify(cacheObject));
+
+      } catch (error) {
+        console.error("Error fetching detail:", error);
+        loading.classList.add('d-none');
+        errorDiv.classList.remove('d-none');
+      }
+    });
+  </script>
+
+</body>
+
+</html>

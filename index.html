@@ -310,49 +310,94 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", async function () {
             const parent = document.querySelector("#bookCarousel .carousel-inner");
             const indicators = document.querySelector("#bookCarousel .carousel-indicators");
-            const folderName = "2025_09_30";
 
-            const linkMap = {
-                1: "https://opac.president.ac.id/index.php?p=show_detail&id=24031&keywords=kisah+sosiologi",
-                2: "https://opac.president.ac.id/index.php?p=show_detail&id=24021&keywords=next+level",
-                3: "https://opac.president.ac.id/index.php?p=show_detail&id=24014&keywords=kapasari",
-                4: "https://opac.president.ac.id/index.php?p=show_detail&id=24015&keywords=Kumpulan+Cerpen+Setengah+Cerita+Pria+Madura",
-                5: "https://opac.president.ac.id/index.php?p=show_detail&id=24024&keywords=kartini",
-                6: "https://opac.president.ac.id/index.php?p=show_detail&id=24023&keywords=kartini",
-                7: "https://opac.president.ac.id/index.php?p=show_detail&id=24041&keywords=unhcr",
-                8: "https://opac.president.ac.id/index.php?p=show_detail&id=24043&keywords=housing",
-                9: "https://opac.president.ac.id/index.php?p=show_detail&id=24022&keywords=kartini",
-                10: "https://opac.president.ac.id/index.php?p=show_detail&id=24029&keywords=mengejar+fajar",
-                11: "https://opac.president.ac.id/index.php?p=show_detail&id=24036&keywords=laut+hitam"
-            }; // ganti ini dengan konten baru, format {key: nama file, value: link opac nya}
+            const API_URL = "http://localhost:1337/api/highlights?sort=order:asc&populate=image";
+            const CACHE_KEY = "library_highlights_data";
+            const CACHE_DURATION = 1000 * 60 * 60;
 
-            // kosongin biar gak dobel
-            parent.innerHTML = "";
-            indicators.innerHTML = "";
+            function renderCarousel(highlights) {
+                parent.innerHTML = "";
+                indicators.innerHTML = "";
 
-            Object.entries(linkMap).forEach(([key, value], index) => {
-                const isActive = index === 0 ? "active" : "";
+                highlights.forEach((item, index) => {
+                    const isActive = index === 0 ? "active" : "";
 
-                // carousel item
-                const element = `
+                    const imageUrl = item.image?.url || '';
+                    const linkUrl = item.link || '#';
+
+                    const slideElement = `
                 <div class="carousel-item ${isActive}">
-                    <img src="assets/img/home/carousel_content/${folderName}/${key}.jpg" 
-                        class="d-block w-100" alt="Slide ${key}">
+                    <img src="${imageUrl}" class="d-block w-100" alt="Highlight Slide ${index + 1}" style="object-fit: cover;">
                     <div class="container book-info">
-                    <a href="${value}" class="btn-check-book" target="_blank">Check the Book</a>
+                        <a href="${linkUrl}" class="btn-check-book" target="_blank">Check the Book</a>
                     </div>
                 </div>`;
-                parent.insertAdjacentHTML("beforeend", element);
 
-                // indicator
-                const indicator = `<button type="button" data-bs-target="#bookCarousel" data-bs-slide-to="${index}" class="${isActive}" aria-label="Slide ${key}"></button>`;
-                indicators.insertAdjacentHTML("beforeend", indicator);
-            });
+                    parent.insertAdjacentHTML("beforeend", slideElement);
+
+                    const indicatorElement = `
+                    <button type="button" 
+                        data-bs-target="#bookCarousel" 
+                        data-bs-slide-to="${index}" 
+                        class="${isActive}" 
+                        aria-label="Slide ${index + 1}">
+                    </button>`;
+
+                    indicators.insertAdjacentHTML("beforeend", indicatorElement);
+                });
+            }
+
+            async function init() {
+                try {
+                    const cachedData = localStorage.getItem(CACHE_KEY);
+
+                    if (cachedData) {
+                        const parsedCache = JSON.parse(cachedData);
+                        const now = new Date().getTime();
+
+                        if (now - parsedCache.timestamp < CACHE_DURATION) {
+                            console.log("⚡ Load from Cache (Hemat Kuota Strapi)");
+                            renderCarousel(parsedCache.data);
+                            return;
+                        }
+                    }
+
+                    console.log("🌐 Fetching from Strapi API...");
+                    const response = await fetch(API_URL);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const json = await response.json();
+                    const highlights = json.data;
+
+                    renderCarousel(highlights);
+
+                    const cacheObject = {
+                        timestamp: new Date().getTime(),
+                        data: highlights
+                    };
+                    localStorage.setItem(CACHE_KEY, JSON.stringify(cacheObject));
+
+                } catch (error) {
+                    console.error("Gagal mengambil data highlights:", error);
+
+                    const cachedData = localStorage.getItem(CACHE_KEY);
+                    if (cachedData) {
+                        console.warn("⚠️ API Error, using expired cache as fallback");
+                        renderCarousel(JSON.parse(cachedData).data);
+                    } else {
+                        parent.innerHTML = `<div class="text-center p-5"><p>Failed to load highlights.</p></div>`;
+                    }
+                }
+            }
+
+            init();
         });
-
     </script>
 
 </body>
