@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const API_URL = "http://localhost:1337/api/news";
+  const API_URL = "https://attractive-rhythm-d2312461d4.strapiapp.com/api/news";
   const ARTICLES_PER_PAGE = 12;
   const PAGES_PER_SET = 10;
   const CACHE_DURATION = 1000 * 60 * 30;
