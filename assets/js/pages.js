@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const API_URL = "https://blessed-crystal-ef83780819.strapiapp.com/api/news";
+  const API_URL = "https://lib-cms.onrender.com/api/news";
   const ARTICLES_PER_PAGE = 12;
   const PAGES_PER_SET = 10;
   const CACHE_DURATION = 1000 * 60 * 30;
