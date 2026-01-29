@@ -1,6 +1,6 @@
 ---
 title: "President University Library Hosts HukumOnline Workshop to Strengthen Legal Research Skills"
-date: 2026-01–29
+date: 2026-01-29
 slug: president-university-library-hosts-hukumonline-workshop-to-strengthen-legal-research-skill
 image: "https://i.ibb.co.com/9mbYZpX0/Picture1.jpg"
 ---
