@@ -1,4 +1,4 @@
-﻿–––
+___
 title: "President University Library Hosts HukumOnline Workshop to Strengthen Legal Research Skills"
 
 date: 2026-01–29
@@ -6,7 +6,8 @@ date: 2026-01–29
 slug: president-university-library-hosts-hukumonline-workshop-to-strengthen-legal-research-skill
 
 image: "https://i.ibb.co.com/9mbYZpX0/Picture1.jpg"
-–––
+___
+
 On November 19, 2025, the Adam Kurniawan Library at President University held a HukumOnline workshop at the Charles Himawan Auditorium. The event was designed to help students, especially those studying law and the social sciences, improve their ability to navigate and utilize digital legal resources effectively. The workshop was part of the library’s ongoing efforts to promote digital literacy within its academic community.
 
 Husna Syahirah Agustine, S.H., a representative from the Customer Experience division of Hukumonline, led the session. She introduced participants to the features, tools, and advantages offered by Hukumonline, one of the most widely used legal information platforms in Indonesia. Her presentation emphasized the importance of accurate legal references, up-to-date regulations, and reliable databases in producing quality academic work.
