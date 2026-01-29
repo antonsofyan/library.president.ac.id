@@ -313,91 +313,46 @@
         document.addEventListener("DOMContentLoaded", async function () {
             const parent = document.querySelector("#bookCarousel .carousel-inner");
             const indicators = document.querySelector("#bookCarousel .carousel-indicators");
+            const DATA_URL = "content/highlights.json";
 
-            const API_URL = "https://lib-cms.onrender.com/api/highlights?sort=order:asc&populate=image";
-            const CACHE_KEY = "library_highlights_data";
-            // cached data
-            const CACHE_DURATION = 1000 * 60 * 60;
+            try {
+                const response = await fetch(DATA_URL);
+                const highlights = await response.json();
 
-            function renderCarousel(highlights) {
+                const sortedData = highlights.sort((a, b) => a.order - b.order);
+
                 parent.innerHTML = "";
                 indicators.innerHTML = "";
 
-                highlights.forEach((item, index) => {
+                sortedData.forEach((item, index) => {
                     const isActive = index === 0 ? "active" : "";
 
-                    const imageUrl = item.image?.url || '';
-                    const linkUrl = item.link || '#';
+                    const element = `
+            <div class="carousel-item ${isActive}">
+                <img src="${item.image}" 
+                    class="d-block w-100" alt="Highlight ${item.order}"
+                    onerror="this.src='assets/img/placeholder-book.jpg'">
+                <div class="container book-info">
+                    <a href="${item.url}" class="btn-check-book" target="_blank">Check the Book</a>
+                </div>
+            </div>`;
+                    parent.insertAdjacentHTML("beforeend", element);
 
-                    const slideElement = `
-                <div class="carousel-item ${isActive}">
-                    <img src="${imageUrl}" class="d-block w-100" alt="Highlight Slide ${index + 1}" style="object-fit: cover;">
-                    <div class="container book-info">
-                        <a href="${linkUrl}" class="btn-check-book" target="_blank">Check the Book</a>
-                    </div>
-                </div>`;
-
-                    parent.insertAdjacentHTML("beforeend", slideElement);
-
-                    const indicatorElement = `
-                    <button type="button" 
-                        data-bs-target="#bookCarousel" 
-                        data-bs-slide-to="${index}" 
-                        class="${isActive}" 
-                        aria-label="Slide ${index + 1}">
-                    </button>`;
-
-                    indicators.insertAdjacentHTML("beforeend", indicatorElement);
+                    const indicator = `
+            <button type="button" 
+                data-bs-target="#bookCarousel" 
+                data-bs-slide-to="${index}" 
+                class="${isActive}" 
+                aria-label="Slide ${item.order}">
+            </button>`;
+                    indicators.insertAdjacentHTML("beforeend", indicator);
                 });
+
+                console.log(" Highlights synced perfectly!");
+
+            } catch (error) {
+                console.error("Gagal narik data highlights:", error);
             }
-
-            async function init() {
-                try {
-                    const cachedData = localStorage.getItem(CACHE_KEY);
-
-                    if (cachedData) {
-                        const parsedCache = JSON.parse(cachedData);
-                        const now = new Date().getTime();
-
-                        if (now - parsedCache.timestamp < CACHE_DURATION) {
-                            console.log("⚡ Load from Cache (Hemat Kuota Strapi)");
-                            renderCarousel(parsedCache.data);
-                            return;
-                        }
-                    }
-
-                    console.log("🌐 Fetching from Strapi API...");
-                    const response = await fetch(API_URL);
-
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-
-                    const json = await response.json();
-                    const highlights = json.data;
-
-                    renderCarousel(highlights);
-
-                    const cacheObject = {
-                        timestamp: new Date().getTime(),
-                        data: highlights
-                    };
-                    localStorage.setItem(CACHE_KEY, JSON.stringify(cacheObject));
-
-                } catch (error) {
-                    console.error("Gagal mengambil data highlights:", error);
-
-                    const cachedData = localStorage.getItem(CACHE_KEY);
-                    if (cachedData) {
-                        console.warn("⚠️ API Error, using expired cache as fallback");
-                        renderCarousel(JSON.parse(cachedData).data);
-                    } else {
-                        parent.innerHTML = `<div class="text-center p-5"><p>Failed to load highlights.</p></div>`;
-                    }
-                }
-            }
-
-            init();
         });
     </script>
 

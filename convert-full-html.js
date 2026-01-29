@@ -23,7 +23,7 @@ const articles = [
   },
   {
     title: "Adam Kurniawan Library Representative Introduces Key Academic Tools in Academic Writing Classes",
-    date: "November 6-7, 2025",
+    date: "November 6, 2025",
     desc: `On November 6-7 in Cikarang, the Adam Kurniawan Library delivered academic support sessions to Academic Writing classes across Informatics, Business Administration, and Accounting programs. Over two days, students were introduced to key digital tools and library resources aimed at improving research and writing quality. Each class received aligned guidance designed to strengthen their academic skills and help them make better use of university learning platforms...`,
     link: '/pagesNews/pages-01/content-18.html'
   },
@@ -72,7 +72,7 @@ and digital resources. …`,
   },
   {
     title: "Introducing Mendeley and Zotero to Medical Faculty Lecturers at President University",
-    date: "Semptember 4, 2025",
+    date: "September 4, 2025",
     desc: `President University, September 4, 2025 — As part of the RINGKAS program, the President
 University Library organized an online session via Zoom to introduce two powerful reference
 management tools, Mendeley and Zotero, to lecturers from the Faculty of Medicine …`,
@@ -1303,9 +1303,19 @@ const slugify = (text) => {
     .replace(/\-\-+/g, '-');
 };
 
-const processedData = [];
+const formatDate = (dateStr) => {
+  // Menghandle format "November 6-7, 2025" -> ambil tanggal pertama
+  const cleanDate = dateStr.split('-')[0].trim();
+  const d = new Date(cleanDate);
+  if (isNaN(d.getTime())) return "2024-01-01"; // Fallback kalau date error
+  return d.toISOString().split('T')[0];
+};
 
-console.log("Mulai Convert HTML ke Markdown dengan Absolute Image URL...");
+const newsIndex = [];
+const outputFolder = './content/news'; // Folder buat naruh .md
+fs.ensureDirSync(outputFolder);
+
+console.log("🚀 Starting Migration: HTML to Individual Markdown...");
 
 articles.forEach((item, index) => {
   try {
@@ -1315,50 +1325,61 @@ articles.forEach((item, index) => {
     if (fs.existsSync(filePath)) {
       const htmlContent = fs.readFileSync(filePath, 'utf8');
       const $ = cheerio.load(htmlContent);
-
       const contentArea = $('section#seminar-article .container');
 
-      contentArea.find('h1.post-title').remove();
-      contentArea.find('.post-meta').remove();
-      contentArea.find('.post-navigation-wrapper').remove();
-      contentArea.find('a[href^="javascript:"]').remove();
-
+      // Cleaning up
+      contentArea.find('h1.post-title, .post-meta, .post-navigation-wrapper').remove();
+      
+      // Absolute Image URL
       const baseUrl = "https://library.president.ac.id";
-
       contentArea.find('img').each((i, el) => {
         let src = $(el).attr('src');
-
         if (src && !src.startsWith('http')) {
-
-
-          if (src.includes('assets/')) {
-            src = '/assets/' + src.split('assets/')[1];
-          } else if (!src.startsWith('/')) {
-            src = '/' + src;
-          }
-
+          src = src.startsWith('/') ? src : '/' + src;
           $(el).attr('src', baseUrl + src);
         }
       });
 
-      let markdown = turndownService.turndown(contentArea.html());
+      const markdownBody = turndownService.turndown(contentArea.html());
+      const dateSlug = formatDate(item.date);
+      const titleSlug = slugify(item.title);
+      const fileName = `${dateSlug}-${titleSlug}.md`;
+      
+      // Bikin Frontmatter buat Decap CMS / Jekyll style
+      const fileContent = `---
+title: "${item.title.replace(/"/g, '\\"')}"
+date: ${dateSlug}
+slug: ${titleSlug}
+image: "${item.image || ''}"
+---
 
-      processedData.push({
+${markdownBody}`;
+
+      // Tulis file Markdown masing-masing
+      fs.writeFileSync(path.join(outputFolder, fileName), fileContent);
+
+      // Masukin ke Index buat dipake Fetch di Frontend
+      newsIndex.push({
         title: item.title,
-        slug: slugify(item.title),
-        content: markdown,
-        date: new Date(item.date).toISOString(),
+        date: dateSlug,
+        slug: titleSlug,
+        fileName: fileName,
+        summary: item.desc.substring(0, 150) + '...',
+        image: item.image || ''
       });
 
-      console.log(`✅ [${index + 1}] Beres: ${item.title}`);
+      console.log(`✅ [${index + 1}] Generated: ${fileName}`);
     } else {
-      console.warn(`⚠️ File gak ketemu: ${filePath}`);
+      console.warn(`⚠️ File not found: ${filePath}`);
     }
-
   } catch (err) {
-    console.error(`❌ Error processing ${item.title}:`, err.message);
+    console.error(`❌ Error at ${item.title}:`, err.message);
   }
 });
 
-fs.writeFileSync('news-content-full.json', JSON.stringify({ news: processedData }, null, 2));
-console.log("\n🎉 Selesai! Image URL sekarang udah absolute ke library.president.ac.id");
+// Tulis file JSON buat navigasi/listing
+fs.writeJsonSync('./content/news-index.json', { news: newsIndex }, { spaces: 2 });
+
+console.log("\n🎉 Migration Selesai!");
+console.log(`📂 Check folder: ${outputFolder}`);
+console.log(`📄 Check index: ./content/news-index.json`);
