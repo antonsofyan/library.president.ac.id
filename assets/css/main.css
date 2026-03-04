@@ -3548,7 +3548,17 @@ ONLINE DATA BASE
 =========================*/
 /* Section background */
 .ristek-doaj-section {
-    background-color: #00e5f6;
+    background-color: #003049;
+    padding: 80px 0;
+}
+
+.ristek-gale-section {
+    background-color: #EAE2B7;
+    padding: 80px 0;
+}
+
+.ristek-hukum-section {
+    background-color: #FCBF49;
     padding: 80px 0;
 }
 
