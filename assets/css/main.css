@@ -3344,7 +3344,7 @@ E- Resource
 }
 
 .logo-lib {
-    width: 100px;
+    width: 200px;
     margin-bottom: 20px;
 }
 
@@ -3361,6 +3361,12 @@ E- Resource
 
 .blue-text {
     color: #0d3c61;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red-text {
+    color: #ff0000;
     font-size: 20px;
     font-weight: bold;
 }
