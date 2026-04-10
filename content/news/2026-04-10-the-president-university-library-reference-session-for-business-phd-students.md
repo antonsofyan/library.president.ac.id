@@ -5,7 +5,7 @@ slug: the-president-university-library-reference-session-for-business-phd-studen
 image: ""
 ---
 
-![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/content-nov-20-1.png) ![Seminar Photo 2](https://library.president.ac.id/assets/img/news/pages-1/content-nov-20-2.png)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/bataviatower1.jpeg) ![Seminar Photo 2](https://library.president.ac.id/assets/img/news/pages-1/bataviatower2.jpeg)
 
 On Saturday, April 4, 2026, Laurensius, a staff member of the President University Library, conducted a class session for doctoral students from the Faculty of Business at Batavia Tower. The session focused on introducing the various academic journals subscribed to by the library, as well as the range of electronic resources (e-resources) available to support research and academic activities.
 
