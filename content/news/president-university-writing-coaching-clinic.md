@@ -1,0 +1,16 @@
+---
+title: "Coaching Clinic 'Writing Made Easy, Writing with Impact' Strengthens Academic Writing Competencies"
+date: 2026-06-10
+slug: president-university-writing-coaching-clinic
+image: ""
+---
+
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/itb1.jpg) ![Seminar Photo 2](https://library.president.ac.id/assets/img/news/pages-1/itb2.jpg)
+
+Bandung, 2 June 2026 — The Forum Perpustakaan Perguruan Tinggi Indonesia (FPPTI) Region West Java organized a coaching clinic entitled “Menulis Mudah, Menulis Berdampak: Dari Amatir Menjadi Mahir” (Writing Made Easy, Writing with Impact): From Amateur to Expert at the Institut Teknologi Bandung (ITB) on 2 June 2026. Bringing together librarians, academics, and higher education professionals, the event aimed to strengthen participants’ competencies in research development, scholarly writing, and publication strategies to produce meaningful and impactful academic work.
+
+The first session was delivered by Purwani Istiana, who discussed the role of bibliometrics in shaping research ideas and developing research frameworks. She explained bibliometric approaches through the analysis and classification of bibliographic data and metadata to generate representative research summaries. Participants were introduced to citation, publication, and author analysis as methods for collecting and evaluating literature. Dr.Purwani also highlighted the benefits of bibliometric studies, including research topic mapping, performance evaluation, trend analysis, identification of research gaps, and institutional policy development. She concluded with practical steps in conducting bibliometric research, from determining research topics and keywords to dataset cleaning, visualization, and interpretation.
+
+The third session was presented by Santi Delliana, who introduced the fundamentals of Systematic Literature Review (SLR) as a method for identifying, analyzing, and synthesizing literature to establish theoretical foundations and identify research gaps. She also explained several review methods, including bibliometric reviews, scoping reviews, and integrative reviews. Participants were further introduced to the PICOC framework—Population, Intervention, Comparison, Outcome, and Context—as a systematic approach to formulating research questions and refining literature selection for stronger research outcomes.
+
+The final session was delivered by K.G. Pambayun, who discussed publication strategies for academic journals, particularly the role of SINTA as Indonesia’s journal indexing standard administered by the Ministry of Higher Education. He highlighted common publication challenges, such as selecting inappropriate journals, failing to follow journal templates, and insufficient preparation during submission and revision stages. The session concluded with an announcement that FPPTI West Java will soon launch its own academic journal, BiblioHub, as a platform for scholarly communication within the higher education library community. Through this coaching clinic, FPPTI Region West Java reaffirmed its commitment to enhancing academic writing and research competencies among higher education professionals. By equipping participants with practical knowledge and publication strategies, the program encouraged them to grow from amateur to expert in producing impactful scholarly work.
