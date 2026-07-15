@@ -40,8 +40,7 @@ Kalarensi added that while today's students can generate content instantly throu
 
 The event also showcased practical technological solutions for modern libraries. Nicholas Sio Pradiva, S.IP. demonstrated the fundamentals of Robotic Process Automation (RPA) utilizing UIPath software, showcasing how digital robots can replicate human actions to automate data input into Library Management Systems. Following this, Chandra Pratama Setiawan, M.Sc. presented a guide to creating clean, data-driven library dashboards using Tableau to optimize library reporting and statistics.
 
-To wrap up the series of activities, the event concluded with a specialized workshop on the utilization of the JASP application delivered by Dr. Dhama Gustiar Baskoro, S.S., M.Pd. This workshop was specifically designed to equip librarians with advanced statistical data analysis skills, directly reinforcing their strategic roles as research consultants, co-teachers, and vital partners to faculties and researchers in navigating modern data-driven research.
+To wrap up the series of activities, the event concluded with a specialized workshop on the utilization of the JASP application delivered by Dr. Dhama Gustiar Baskoro, S.S., M.Pd. This workshop was specifically designed to equip librarians with advanced statistical data analysis skills, directly reinforcing their strategic roles as research consultants, co-teachers, and vital partners to faculties and researchers in navigating modern data-driven research. (Writer: Laurensius Yoel Fabian)
 
 ![enter image description here](https://i.ibb.co.com/5X60gWyY/Foto-UKI.jpg)
 
-Writer: Laurensius Yoel
