@@ -1,52 +1,52 @@
 [
   {
     "order": 1,
-    "image": "assets/img/Where_you_going.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=18623&keywords=Where+You+Going%3A+Design+Advantures+in+Southeast+Asia"
+    "image": "assets/img/The_Red.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=23831&keywords=The+Red+Carpet"
   },
   {
     "order": 2,
-    "image": "assets/img/The_Prophet.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24422&keywords=The+Prophet"
+    "image": "assets/img/Programmable_logic.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24252&keywords=Programmable+logic"
   },
   {
     "order": 3,
-    "image": "assets/img/the_first_republic.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24290&keywords=the+first+republic"
+    "image": "assets/img/Principles_of Genetics.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24336&keywords=Principles+of+Genetics"
   },
   {
     "order": 4,
-    "image": "assets/img/Robot_Modeling.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24246&keywords=Robot+modeling%5C"
+    "image": "assets/img/Principles_and_Applications.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24214&keywords=Principles+and+Applications"
   },
   {
     "order": 5,
-    "image": "assets/img/Pengantar_Desain_Komunikasi_Visual_Dalam_Penerapan.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=22050&keywords=Pengantar+Desain+Komunikasi+Visual+Dalam+Penerapan"
+    "image": "assets/img/Modern_control.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24254&keywords=Modern+control"
   },
   {
     "order": 6,
-    "image": "assets/img/Navigating_ASEAN.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24483&keywords=Navigating+ASEAN"
+    "image": "assets/img/Introductory_circuit.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24251&keywords=Introductory+circuit"
   },
   {
     "order": 7,
-    "image": "assets/img/Microbiology_A_Laboratory_Manual.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24340&keywords=Microbiology+A+Laboratory+Manual"
+    "image": "assets/img/Human_Molecular.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24215&keywords=Human+Molecular"
   },
   {
     "order": 8,
-    "image": "assets/img/Bridging_Asia_Europe_Relations.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24424&keywords=Bridging+Asia+Europe+Relations"
+    "image": "assets/img/Engineering_Mechanics.png",
+    "url": "https://https://opac.president.ac.id/index.php?p=show_detail&id=24201&keywords=Engineering+Mechanics"
   },
   {
     "order": 9,
-    "image": "assets/img/A_Great_Secret_Did.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24288&keywords=A+great+Secret+Did+Usa"
+    "image": "assets/img/Concepts_of_Genetics.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24213&keywords=Concepts+of+Genetics"
   },
   {
     "order": 10,
-    "image": "assets/img/Antiques.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=8080&keywords=antiques"
+    "image": "assets/img/Chromosome_Abnormalities.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24216&keywords=Chromosome+Abnormalities"
   } 
 ]
