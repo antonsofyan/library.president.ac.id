@@ -1,6 +1,6 @@
 ﻿---
 title: "Smart Librarians: Teaching Partners in the Education 4.0 Era"
-date: 2026-07-14
+date: 2026-06-20
 slug: smart-librarians-teaching-partners-in-the-education-40-era
  ""
 ---
