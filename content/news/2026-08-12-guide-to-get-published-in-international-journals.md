@@ -4,7 +4,6 @@ date: 2026-08-12
 slug: guide-to-get-published-in-international-journals
  ""
 ---
- ""
 **President University, August 10, 2026** – To enhance the quality and volume of scholarly output across the academic community, Adam Kurniawan Library at President University, in collaboration with Emerald Publishing, successfully hosted a webinar titled "Guide to Get Published in International Journals" on Monday, August 10, 2026. The online event, held via Zoom.
 
 The session featured Irwan Sukardi, Business Manager Indonesia at Emerald Publishing, as the keynote speaker. Throughout his presentation, Irwan provided practical insights into the standards and criteria international publishers look for in submitted manuscripts. He emphasized the importance of thoroughly understanding ethical guidelines to make research submissions competitive on a global scale.
