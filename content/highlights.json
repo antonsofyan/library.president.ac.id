@@ -1,52 +1,52 @@
 [
   {
     "order": 1,
-    "image": "assets/img/Capital_in_the.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24863&keywords=Capital+in+the+twenty"
+    "image": "assets/img/AHFS_Drug.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24787&keywords=AHFS+Drug"
   },
   {
     "order": 2,
-    "image": "assets/img/Global_enviromental.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24862&keywords=global+env"
+    "image": "assets/img/Foundations_of.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24859&keywords=Foundations+of"
   },
   {
     "order": 3,
-    "image": "assets/img/Higher_Level.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24873&keywords=Higher+Level"
+    "image": "assets/img/Genetics.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24869&keywords=Genetics"
   },
   {
     "order": 4,
-    "image": "assets/img/Human_Physiology.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24871&keywords=Human+Physiology"
+    "image": "assets/img/How_to.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=12098&keywords=how+to+market"
   },
   {
     "order": 5,
-    "image": "assets/img/Medical_Physiology.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24872&keywords=Medical+Physiology"
+    "image": "assets/img/Indonesia_Women.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24206&keywords=Indonesia+Women"
   },
   {
     "order": 6,
-    "image": "assets/img/Molecular_cell_biology.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24870&keywords=Molecular+cell+biology"
+    "image": "assets/img/Naval_diplomacy.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24860&keywords=naval"
   },
   {
     "order": 7,
-    "image": "assets/img/Nature_culture.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24865&keywords=Nature+culture"
+    "image": "assets/img/Neuroscience.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24868&keywords=Neuroscience"
   },
   {
     "order": 8,
-    "image": "assets/img/Prisoner_Of_Geography.png",
-    "url": "https://opac.president.ac.id/index.php?keywords=Prisoner+Of+Geography&search=search"
+    "image": "assets/img/Social_democracy3.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24777&keywords=Social+democracy"
   },
   {
     "order": 9,
-    "image": "assets/img/The_emergence_of_civil.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=23355&keywords=The+emergence+of+civil"
+    "image": "assets/img/Social_democracy4.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24776&keywords=Social+democracy"
   },
   {
     "order": 10,
-    "image": "assets/img/The_post_colonial.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24861&keywords=The+post+colonial"
+    "image": "assets/img/The_Japanese.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24728&keywords=The+Japanese"
   } 
 ]
