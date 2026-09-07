@@ -233,6 +233,11 @@ library clearance
   margin-bottom: 24px;
 }
 
+.library-clearance-section .section-title {
+  color: #ffd166 !important;
+  font-weight: 700 !important;
+}
+
 /*=============
 Librarians
 ===============*/
