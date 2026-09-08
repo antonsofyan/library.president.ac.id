@@ -1,19 +1,13 @@
 .rules-section {
     position: relative;
-    padding: 70px 100px;
-    color: #fff;
-    overflow: hidden;
-}
-
-.rules-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
     background: url('../img/library-02.jpg') center center / cover no-repeat;
-    z-index: 0;
+    padding: 70px 100px;
+    background-size: 100% auto;
+    color: #fff;
 }
 
 .rules-section .overlay {
+    content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.5); /* dark overlay */
@@ -23,6 +17,7 @@
 .rules-section .container {
     position: relative;
     z-index: 2;
+
 }
 
 .rules-section h2 {
