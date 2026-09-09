@@ -459,9 +459,6 @@ tbody tr:nth-child(even) {
 
 /* TikTok position */
 .rules-section .tiktok-embed {
-    transform: translateX(20px);scale(0.5);
-    transform-origin: top left;
+    transform: translateX(20px);
 }
-
-
 
