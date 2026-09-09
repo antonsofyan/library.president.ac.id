@@ -457,3 +457,10 @@ tbody tr:nth-child(even) {
     background-color: #f5f5f5;
 }
 
+/* TikTok position */
+.rules-section .tiktok-embed {
+    transform: translateX(20px);
+}
+
+
+
