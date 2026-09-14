@@ -459,8 +459,8 @@ tbody tr:nth-child(even) {
 
 /* TikTok position */
 .rules-section .tiktok-embed {
-    width: 325px !important;
-    min-width: 325px !important;
+    width: 250px !important;
+    min-width: 250px !important;
     margin: 0 !important;
     transform: translateX(20px);cale(0.7);
     transform-origin: top left;
