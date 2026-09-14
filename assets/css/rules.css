@@ -457,13 +457,6 @@ tbody tr:nth-child(even) {
     background-color: #f5f5f5;
 }
 
-.rules-section .tiktok-wrapper {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    transform: translateX(20px);
-}
-
 /* TikTok position */
 .rules-section .tiktok-embed {
     transform: translateX(20px);cale(0.7);
