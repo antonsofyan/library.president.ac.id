@@ -457,11 +457,15 @@ tbody tr:nth-child(even) {
     background-color: #f5f5f5;
 }
 
+.rules-section .tiktok-wrapper {
+    width: 300px;
+    height: 520px;
+    overflow: hidden;
+    transform: translateX(20px);
+}
+
 /* TikTok position */
 .rules-section .tiktok-embed {
-    width: 250px !important;
-    min-width: 250px !important;
-    margin: 0 !important;
     transform: translateX(20px);cale(0.7);
     transform-origin: top left;
 }
