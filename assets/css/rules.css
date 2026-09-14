@@ -459,7 +459,7 @@ tbody tr:nth-child(even) {
 
 .rules-section .tiktok-wrapper {
     width: 300px;
-    height: 520px;
+    height: 300px;
     overflow: hidden;
     transform: translateX(20px);
 }
