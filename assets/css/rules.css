@@ -459,7 +459,7 @@ tbody tr:nth-child(even) {
 
 /* TikTok position */
 .rules-section .tiktok-embed {
-    transform: translateX(20px);scale(0.10);
+    transform: translateX(30px);scale(0.7);
     transform-origin: top left;
 }
 
