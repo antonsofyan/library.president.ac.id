@@ -1,52 +1,52 @@
 [
   {
     "order": 1,
-    "image": "assets/img/AHFS_Drug.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24787&keywords=AHFS+Drug"
+    "image": "assets/img/tools_for_executives.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=2972&keywords=tools+for+executives"
   },
   {
     "order": 2,
-    "image": "assets/img/Foundations_of.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24859&keywords=Foundations+of"
+    "image": "assets/img/The_vulnerable.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25042&keywords=the+vulnerable"
   },
   {
     "order": 3,
-    "image": "assets/img/Genetics.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24869&keywords=Genetics"
+    "image": "assets/img/The_Merck.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25020&keywords=the+merck"
   },
   {
     "order": 4,
-    "image": "assets/img/How_to.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=12098&keywords=how+to+market"
+    "image": "assets/img/Perinatologi.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25019&keywords=perinatology"
   },
   {
     "order": 5,
-    "image": "assets/img/Indonesia_Women.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24206&keywords=Indonesia+Women"
+    "image": "assets/img/Parasitologi_kedokteran.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25037&keywords=parasitologi+kedokteran"
   },
   {
     "order": 6,
-    "image": "assets/img/Naval_diplomacy.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24860&keywords=naval"
+    "image": "assets/img/Mosby_Medical.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25047&keywords=mosby"
   },
   {
     "order": 7,
-    "image": "assets/img/Neuroscience.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24868&keywords=Neuroscience"
+    "image": "assets/img/human_dimension.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24732&keywords=human+dimension"
   },
   {
     "order": 8,
-    "image": "assets/img/Social_democracy3.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24777&keywords=Social+democracy"
+    "image": "assets/img/Color_atlas.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25033&keywords=Color+atlas"
   },
   {
     "order": 9,
-    "image": "assets/img/Social_democracy4.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24776&keywords=Social+democracy"
+    "image": "assets/img/cardiovascular.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25050&keywords=cardiovascular"
   },
   {
     "order": 10,
-    "image": "assets/img/The_Japanese.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24728&keywords=The+Japanese"
+    "image": "assets/img/A_practical.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25031&keywords=a+practical+guide"
   } 
 ]
