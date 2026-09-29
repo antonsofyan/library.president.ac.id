@@ -1,8 +1,8 @@
 [
   {
     "order": 1,
-    "image": "assets/img/tools_for_executives.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=2972&keywords=tools+for+executives"
+    "image": "assets/img/Anda_dapat.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25034&keywords=anda+dapat"
   },
   {
     "order": 2,
@@ -26,17 +26,17 @@
   },
   {
     "order": 6,
-    "image": "assets/img/human_dimension.png",
+    "image": "assets/img/human.png",
     "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24732&keywords=human+dimension"
   },
   {
     "order": 7,
-    "image": "assets/img/Color_atlas.png",
+    "image": "assets/img/opth.png",
     "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25033&keywords=Color+atlas"
   },
   {
     "order": 8,
-    "image": "assets/img/cardiovascular.png",
+    "image": "assets/img/cardio_trials.png",
     "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25050&keywords=cardiovascular"
   },
   {
@@ -46,7 +46,7 @@
   },
    {
     "order": 10,
-    "image": "assets/img/A_practical.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25031&keywords=a+practical+guide"
+    "image": "assets/img/Obesity.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25045&keywords=obesity"
   }
 ]
