@@ -14,39 +14,4 @@
     "image": "assets/img/The_Merck.png",
     "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25020&keywords=the+merck"
   },
-  {
-    "order": 4,
-    "image": "assets/img/Perinatologi.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25019&keywords=perinatology"
-  },
-  {
-    "order": 5,
-    "image": "assets/img/Parasitologi_kedokteran.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25037&keywords=parasitologi+kedokteran"
-  },
-  {
-    "order": 6,
-    "image": "assets/img/Mosby_Medical.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25047&keywords=mosby"
-  },
-  {
-    "order": 7,
-    "image": "assets/img/human_dimension.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24732&keywords=human+dimension"
-  },
-  {
-    "order": 8,
-    "image": "assets/img/Color_atlas.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25033&keywords=Color+atlas"
-  },
-  {
-    "order": 9,
-    "image": "assets/img/cardiovascular.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25050&keywords=cardiovascular"
-  },
-  {
-    "order": 10,
-    "image": "assets/img/A_practical.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25031&keywords=a+practical+guide"
-  } 
 ]
