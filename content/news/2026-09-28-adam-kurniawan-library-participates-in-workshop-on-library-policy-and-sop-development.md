@@ -3,7 +3,7 @@ title: "Adam Kurniawan Library Participates in Workshop on Library Policy and SO
 date: 2026-09-28
 slug: adam-kurniawan-library-participates-in-workshop-on-library-policy-and-sop-development
 ---
-Tangerang, 25 september 2026, Adam Kurniawan Library of President University participated in the Workshop on Library Policy and Standard Operating Procedure (SOP) Developmentat at Universitas Multimedia Nusantara (UMN). The workshop focused on strengthening governance and standardization in higher education libraries.
+Tangerang, 25 september 2026, Adam Kurniawan Library of President University participated in the Workshop on Library Policy and Standard Operating Procedure (SOP) Development at Universitas Multimedia Nusantara (UMN). The workshop focused on strengthening governance and standardization in higher education libraries.
 
 The workshop covered the importance of library policies, standards, SOPs, and Work Instructions (IK) in supporting consistent and accountable library services. Participants also explored SOP development, including workflow mapping, service standards, document control, and records as evidence of implementation.
 
