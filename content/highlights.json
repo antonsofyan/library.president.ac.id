@@ -1,52 +1,52 @@
 [
   {
     "order": 1,
-    "image": "assets/img/812.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25057&keywords=812"
+    "image": "assets/img/DBD.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25122&keywords=tanaman+obat+%26+ramuan"
   },
   {
     "order": 2,
-    "image": "assets/img/Buah_ajaib.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25108&keywords=buah+ajaib"
+    "image": "assets/img/jantung.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25124&keywords=jantung"
   },
   {
     "order": 3,
-    "image": "assets/img/cara_benar.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25052&keywords=cara+benar+meracik+obat+tradisional"
+    "image": "assets/img/meja.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24867&keywords=meja+keabadian"
   },
   {
     "order": 4,
-    "image": "assets/img/Flu_burung.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25056&keywords=flu+burung"
+    "image": "assets/img/membuat.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25147&keywords=membuat+kebun"
   },
   {
     "order": 5,
-    "image": "assets/img/sehat.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25053&keywords=sehat+dengan+tanaman+obat"
+    "image": "assets/img/routledge.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24858&keywords=routledge"
   },
   {
     "order": 6,
-    "image": "assets/img/sehat_bugar.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25146&keywords=sehat+bugar"
+    "image": "assets/img/sapu.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25126&keywords=sapu+bersih"
   },
   {
     "order": 7,
-    "image": "assets/img/sembung.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25054&keywords=sembung"
+    "image": "assets/img/student.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=24866&keywords=students"
   },
   {
     "order": 8,
-    "image": "assets/img/Terapi_herba.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25123&keywords=terapi+herba"
+    "image": "assets/img/taklukan.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25121&keywords=taklukan+penyakit+dengan"
   },
   {
     "order": 9,
-    "image": "assets/img/Tumbuhan_untuk.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25055&keywords=tumbuhan+untuk+pengobatan"
+    "image": "assets/img/tanaman_obat.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25058&keywords=tanaman+obat"
   },
    {
     "order": 10,
-    "image": "assets/img/tanaman_berkhasiat.png",
-    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25095&keywords=tanaman+berkhasiat"
+    "image": "assets/img/TOGA.png",
+    "url": "https://opac.president.ac.id/index.php?p=show_detail&id=25120&keywords=TOGA"
   }
 ]
