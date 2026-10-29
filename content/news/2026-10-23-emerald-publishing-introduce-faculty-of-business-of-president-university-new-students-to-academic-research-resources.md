@@ -19,4 +19,4 @@ Throughout the program, several key learning outcomes were emphasized: discoveri
 
 Through this collaboration with Emerald Publishing, President University Library continues to support the university community in developing information literacy and fostering a strong academic culture. The program reflects the Library’s commitment to helping students move beyond textbook-based learning toward a more research-oriented approach, equipping them with the skills to find, evaluate, and use scholarly information effectively throughout their university journey. (Laurensius Yoel Fabian)
 
-![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/literacy.png)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/emerald2.png)
