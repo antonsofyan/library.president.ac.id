@@ -14,4 +14,4 @@ The webinar also clarified co-authorship roles and responsibilities to help rese
 
 Through initiatives like this, Adam Kurniawan Library aims to remain a strategic partner in fostering a vibrant, high-integrity research culture. Armed with a deeper understanding of publication ethics, President University scholars are better positioned to make meaningful contributions to the global academic community. (Laurensius Yoel Fabian)
 
-![enter image description here](https://i.ibb.co.com/N8dH6YQ/2548e87c-a778-4fba-93d9-27586d275885.png)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/emerald4.png)
