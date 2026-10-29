@@ -12,4 +12,5 @@ The workshop also included a hands-on session where participants were given a sp
 The session also highlighted the need for libraries to adapt their procedures to digital transformation and potential disruptions, including system failures and emergency situations. These insights provide valuable references for reviewing and improving existing procedures at the Adam Kurniawan Library.
 
 Beyond the workshop sessions, the event provided an opportunity to connect and exchange experiences with librarians from various higher education institutions, including members of FPPTI Banten and institutions outside the organization. The knowledge and connections gained are expected to support continuous improvement and development of library services at President University. (Anggie Millenia)
-![enter image description here](https://i.ibb.co.com/hJQf8ykT/Untitled-design-2.png)
+
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/workshop.png)
