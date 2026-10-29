@@ -16,7 +16,4 @@ The interactive webinar included a hands-on demonstration, allowing attendees to
 
 The event concluded with an engaging Q&A and open discussion, where participants explored customized use cases and addressed specific user needs. Through initiatives like this, President University Library continues its commitment to enhancing information literacy and providing top-tier academic resources for the entire university community.(Laurensius Yoel Fabian)
 
-![enter image description here](https://i.ibb.co.com/1YhQ0fzF/8cbeb205-8b23-41b9-aa8e-f16d54d8994d.png)
-
-
-![enter image description here](https://i.ibb.co.com/ccZ9Ktt2/b158b88f-2880-4dca-ae44-e20077607899.png)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/emerald5.png)
