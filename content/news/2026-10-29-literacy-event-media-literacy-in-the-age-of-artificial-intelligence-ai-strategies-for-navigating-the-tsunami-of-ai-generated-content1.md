@@ -17,3 +17,5 @@ To address these challenges, the seminar presented three practical strategies fo
 
 Through this seminar, Adam Kurniawan Library reaffirmed its commitment to promoting information literacy and critical engagement with digital media. As AI continues to influence how information is created, distributed, and consumed, the ability to evaluate credibility, recognize potential misinformation, and verify information remains increasingly important. By encouraging the university community to become more critical and responsible media users, the Library seeks to support a more informed and digitally literate academic environment. (Laurensius Yoel Fabian)
 
+(https://library.president.ac.id/assets/img/news/Untitled design 4.png)
+
