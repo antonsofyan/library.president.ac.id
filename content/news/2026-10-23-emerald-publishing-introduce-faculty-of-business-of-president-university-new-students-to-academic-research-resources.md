@@ -18,4 +18,5 @@ The session also introduced students to Emerald’s scholarly journals and case 
 Throughout the program, several key learning outcomes were emphasized: discovering reliable academic resources, exploring Emerald’s e-journals, improving literature-searching skills, supporting academic writing with credible sources, and building research skills from the beginning of university life. By becoming familiar with these resources early in their studies, students are better prepared to approach academic assignments and research with greater confidence and responsibility.
 
 Through this collaboration with Emerald Publishing, President University Library continues to support the university community in developing information literacy and fostering a strong academic culture. The program reflects the Library’s commitment to helping students move beyond textbook-based learning toward a more research-oriented approach, equipping them with the skills to find, evaluate, and use scholarly information effectively throughout their university journey. (Laurensius Yoel Fabian)
+
 ![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/literacy.png)
