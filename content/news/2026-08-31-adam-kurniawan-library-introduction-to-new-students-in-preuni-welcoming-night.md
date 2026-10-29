@@ -1,6 +1,6 @@
 ﻿---
 title: "Adam Kurniawan Library Introduction to New Students in PreUni Welcoming Night."
-date: 2018-08-31
+date: 2026-08-31
 slug: adam-kurniawan-library-introduction-to-new-students-in-preuni-welcoming-night
 
 ---
@@ -14,4 +14,4 @@ Furthermore, the session addressed academic integrity services provided by the l
 
 The interactive Zoom session concluded with a Q&A segment, giving new students the opportunity to ask questions regarding library services, digital access, and membership benefits. Through this welcoming event, the Adam Kurniawan Library reaffirms its commitment to guiding new students toward academic success and fostering a strong culture of research and literacy from their very first day join at President University (Laurensius Yoel Fabian).
 
-![enter image description here](https://i.ibb.co.com/4nQSMTMr/Untitled-design1.png)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/preuni.png)
