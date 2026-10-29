@@ -15,4 +15,5 @@ In addition to physical collections, the presentation introduced several service
 The session further covered the discussion room reservation system, giving students information on how to reserve rooms online using their President University email accounts. Students were encouraged to make reservations in advance, while last-minute bookings can also be made directly through the circulation desk, subject to room availability.
 
 Through this introduction, students of the Master of Management in Technology and Doctor of Management programs are expected to become more familiar with the Adam Kurniawan Library and make effective use of its academic resources and services. With access to books, electronic databases, discussion spaces, and academic integrity tools, the library continues to support students in developing their research and academic capabilities throughout their graduate studies. (M. Salman Alfharezi)
-![enter image description here](https://i.ibb.co.com/cS2Y7qfs/Untitled-design-5.png)
+
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/batavia.png)
