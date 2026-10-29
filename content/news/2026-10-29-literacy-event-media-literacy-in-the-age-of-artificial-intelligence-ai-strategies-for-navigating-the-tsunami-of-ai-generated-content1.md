@@ -1,0 +1,19 @@
+﻿---
+title: "Literacy Event: Media Literacy in the Age of Artificial Intelligence (AI): Strategies for Navigating the Tsunami of AI-Generated Content."
+date: 2026-10-29
+slug:literacy-event-media-literacy-in-the-age-of-artificial-intelligence-ai-strategies-for-navigating-the-tsunami-of-ai-generated-content
+
+---
+
+Cikarang, October 28th, 2026 — Adam Kurniawan Library at President University held a seminar entitled “Media Literacy in the Age of Artificial Intelligence (AI): Strategies for Navigating the Tsunami of AI-Generated Content” (Cerdas Bermedia di Era Akal Imitasi (AI): Strategi Menghadapi Tsunami Konten AI) on Wednesday, October 28, 2026, at BI Corner, President University Library. The seminar featured Mohammad Shihab, M.I.Kom., a lecturer at President University, who shared insights into media literacy, misinformation, and the challenges of navigating an increasingly AI-driven digital environment.
+
+The seminar addressed the growing importance of critical media literacy amid the rapid circulation of information across digital platforms. With the increasing availability of AI-generated content, distinguishing reliable information from misleading or fabricated material has become an essential skill. The discussion encouraged participants to reflect on how they consume information, evaluate media messages, and respond to potentially misleading content in their daily lives.
+
+Drawing on examples of hoaxes, including misinformation in the context of Indonesia’s 2024 general election, the session explored how misleading information can spread and influence public perceptions. Mohammad Shihab also introduced the concept of the echo chamber, a condition in which individuals are predominantly exposed to information and opinions that reinforce their existing beliefs, while alternative perspectives are rarely encountered or rejected. Understanding this phenomenon is important for recognizing how digital media environments can shape opinions and limit exposure to diverse viewpoints.
+
+Another key discussion focused on the differences between journalistic processes and the rapid circulation of information online. By introducing the stages involved in producing news, the session highlighted the importance of editorial processes in verifying and presenting information. Participants were encouraged to consider the credibility of information sources rather than relying solely on content that appears convincing or is widely shared on social media. The discussion also explored the relationship between AI-generated content and reality, emphasizing the need for careful evaluation in an era when digital content can increasingly imitate authentic images and information.
+
+To address these challenges, the seminar presented three practical strategies for navigating the growing volume of AI-generated content: control, question, and verify. First, individuals should control their emotional responses and avoid allowing emotions to dictate their judgments. Second, they should critically question information rather than accepting it at face value. Third, they should verify claims by cross-checking information against other reliable sources before believing or sharing it. Together, these strategies provide a practical foundation for responsible media consumption and informed decision-making.
+
+Through this seminar, Adam Kurniawan Library reaffirmed its commitment to promoting information literacy and critical engagement with digital media. As AI continues to influence how information is created, distributed, and consumed, the ability to evaluate credibility, recognize potential misinformation, and verify information remains increasingly important. By encouraging the university community to become more critical and responsible media users, the Library seeks to support a more informed and digitally literate academic environment. (Laurensius Yoel Fabian)
+
