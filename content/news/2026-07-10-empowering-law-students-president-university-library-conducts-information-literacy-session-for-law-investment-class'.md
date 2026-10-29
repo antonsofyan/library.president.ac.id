@@ -16,4 +16,4 @@ By integrating practical library instruction directly into the classroom, the se
 
 President University Library remains committed to partnering with faculty members across all departments to embed research skills into the curriculum, ensuring that students are fully prepared to meet both academic and professional demands.(Laurensius Yoel Fabian)
 
-![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/law.png)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/law.jpeg)
