@@ -16,4 +16,4 @@ Furthermore, the session addressed academic integrity services provided by the l
 
 The interactive Zoom session concluded with a Q&A segment, giving new students the opportunity to ask questions regarding library services, digital access, and membership benefits. Through this welcoming event, the Adam Kurniawan Library reaffirms its commitment to guiding new students toward academic success and fostering a strong culture of research and literacy from their very first day join at President University (Laurensius Yoel Fabian).
 
-![enter image description here](https://i.ibb.co.com/1tScRGvV/image1.jpg)![enter image description here](https://i.ibb.co.com/H56VRL5/image2.jpg)
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/preuni.png)
