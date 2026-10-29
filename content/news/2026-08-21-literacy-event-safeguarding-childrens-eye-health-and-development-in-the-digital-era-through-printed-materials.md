@@ -18,5 +18,4 @@ As a solution, both speakers agreed that fostering a culture of reading print—
 
 The seminar concluded with the sharing of practical tips for protecting children's eyes, including age-appropriate screen time limits, the "20-20-20 rule," taking breaks from near-vision activities every 40 minutes, and education on blinking exercises and regular eye check-ups. Through this seminar, the library hopes to continue serving as an educational hub and partner for parents and educators, guiding children toward healthier lifestyles and better literacy habits in the digital age.(Laurensius Yoel Fabian)
 
-
-![enter image description here](https://i.ibb.co.com/vCv28Md2/Untitled-design-5-1.png) 
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/safeguarding.png)
