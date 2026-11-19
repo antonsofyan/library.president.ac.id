@@ -3004,8 +3004,7 @@ section,
 
 /* SECTION: More About Us */
 #more-about {
-    background: radial-gradient(circle at 20% 20%, #c2e9fb, transparent 40%),
-    linear-gradient(to bottom, #d7a7e8, #fbc2eb);
+    Background:radial-gradient(circle at 20% 20%, #c2e9fb, transparent 40%), #fff;
     color: white;
     padding: 100px 20px;
     text-align: center;
