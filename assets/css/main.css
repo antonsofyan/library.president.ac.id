@@ -3829,10 +3829,14 @@ Faculty
 }
 
 .btn-success {
+  --bs-btn-color: #0D387D;
   --bs-btn-bg: #fff;
-  --bs-btn-border-color: #fff;
-  --bs-btn-hover-bg: #0a2c63;
-  --bs-btn-hover-border-color: #0a2c63;
-  --bs-btn-active-bg: #0a2c63;
-  --bs-btn-active-border-color: #0a2c63;
+  --bs-btn-border-color: #c2e9fb;
+  --bs-btn-border-width: 2px;
+  --bs-btn-hover-color: #0D387D;
+  --bs-btn-hover-bg: #c2e9fb;
+  --bs-btn-hover-border-color: #fff;
+  --bs-btn-active-color: #0D387D;
+  --bs-btn-active-bg: #a9dcf5;
+  --bs-btn-active-border-color: #fff;
 }
