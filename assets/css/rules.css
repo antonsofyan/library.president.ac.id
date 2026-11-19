@@ -218,10 +218,7 @@ Borrowning
 library clearance
 ===============*/
 .library-clearance-section {
-  background: linear-gradient(to bottom, #242477, #ec1262);
-  color: white;
-  padding: 64px 0;
-  min-height: 400px;
+  background: #0D387D;
 }
 
 .library-clearance-section .container {
