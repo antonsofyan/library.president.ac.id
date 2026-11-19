@@ -3828,4 +3828,11 @@ Faculty
     background: #2a99c6;
 }
 
-
+.btn-success {
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-bg: #0a2c63;
+  --bs-btn-hover-border-color: #0a2c63;
+  --bs-btn-active-bg: #0a2c63;
+  --bs-btn-active-border-color: #0a2c63;
+}
