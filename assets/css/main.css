@@ -3829,8 +3829,8 @@ Faculty
 }
 
 .btn-success {
-  --bs-btn-bg: #000;
-  --bs-btn-border-color: #000;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #fff;
   --bs-btn-hover-bg: #0a2c63;
   --bs-btn-hover-border-color: #0a2c63;
   --bs-btn-active-bg: #0a2c63;
