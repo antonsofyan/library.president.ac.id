@@ -3112,9 +3112,7 @@ section,
 ABout LAST SECTION
 ===================*/
 .library-events-section {
-    background: linear-gradient(to bottom right, #14aee0, #98d7ed);
-    position: relative;
-    overflow: hidden;
+    background: #0D387D
     padding: 100px 20px 120px; /* cukup ruang untuk waves */
 }
 
