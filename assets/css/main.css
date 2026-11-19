@@ -2697,7 +2697,7 @@ section,
 
 .expertise-item .icon {
     font-size: 28px;
-    color: #fff;
+    color: #000;
     border: 2px solid #fff;
     border-radius: 50%;
     width: 48px;
@@ -2713,13 +2713,13 @@ section,
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 5px;
-    color: #fff;
+    color: #000;
 }
 
 .expertise-item p {
     font-size: 14px;
     margin: 0;
-    color: #fff;
+    color: #000;
 }
 
 /*==============================
