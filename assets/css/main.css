@@ -3041,8 +3041,7 @@ section,
 }
 
 #more-about {
-    background-image: radial-gradient(circle at top left, #a7bfe8, transparent 30%),
-    linear-gradient(to bottom, #d7a7e8, #fbc2eb);
+    background-image:radial-gradient(circle at 20% 20%, #c2e9fb, transparent 40%), #fff;
     padding: 100px 20px;
     color: white;
     text-align: center;
