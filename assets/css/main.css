@@ -3051,10 +3051,8 @@ section,
        ABOUT
 ================*/
 #vision-mission {
-  position: relative;
-  background-image: url(../img/about-2.jpg);
-  background-size: cover;
-  background-position: center;
+   position: relative;
+  background: #0D387D;
   min-height: 100vh;
   padding: 60px 0;
   overflow: hidden;
