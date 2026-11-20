@@ -241,6 +241,10 @@ library clearance
   color: #fff;
 }
 
+.library-clearance-section p,
+.library-clearance-section p b {
+  color: #fff;
+}
 /*=============
 Librarians
 ===============*/
