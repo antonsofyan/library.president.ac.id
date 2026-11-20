@@ -155,31 +155,38 @@ Borrowning
     min-width: 300px;
 }
 
+.borrowing-procedures-section .procedure-info {
+    flex: 1 1 35%;
+    min-width: 300px;
+}
+
 .borrowing-procedures-section h2 {
     font-size: 32px;
     font-weight: 700;
     color: #1e1e4f;
 }
 
-.borrowing-procedures-section .procedure-list {
+.borrowing-procedures-section h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e1e4f;
+}
+
+.borrowing-procedures-section .procedure-list,
+.borrowing-procedures-section .info-list {
     padding-left: 20px;
     font-size: 16px;
     line-height: 1.7;
 }
 
-.borrowing-procedures-section .procedure-list li {
+.borrowing-procedures-section .procedure-info p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.borrowing-procedures-section .procedure-list li,
+.borrowing-procedures-section .info-list li {
     margin-bottom: 10px;
-}
-
-.borrowing-procedures-section .procedure-image {
-    max-width: 300px;
-}
-
-.borrowing-procedures-section img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive Stack */
