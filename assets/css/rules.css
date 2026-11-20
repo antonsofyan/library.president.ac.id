@@ -74,9 +74,7 @@
 who is lib
 ===============*/
 .library-user-section {
-    background: linear-gradient(to bottom, #1e2378, #e51a67);
-    padding: 100px 20px;
-    color: #fff;
+    background: #0D387D;
 }
 
 .library-user-section .container {
