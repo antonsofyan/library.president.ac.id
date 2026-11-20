@@ -235,6 +235,12 @@ library clearance
   color: #fff !important;
   font-weight: 700 !important;
 }
+{
+
+.library-clearance-section .rule-list,
+.library-clearance-section .rule-list li {
+  color: #fff;
+}
 
 /*=============
 Librarians
