@@ -250,6 +250,18 @@ library clearance
 .library-clearance-section p b {
   color: #fff;
 }
+
+/* link bit.ly */
+.library-clearance-section .rule-list a {
+  color: #ffc107;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.library-clearance-section .rule-list a:hover {
+  color: #fff;
+}
+
 /*=============
 Librarians
 ===============*/
