@@ -11,3 +11,5 @@ The workshop featured Hana Dirda Hutapea, Customer Experience Officer at HukumOn
 Participants gained practical insights into conducting accurate legal literature searches and maximizing the features available through the library's subscribed e-resources. The session provided an interactive learning environment where attendees could directly explore the platform and ask questions regarding legal document retrieval.
 
 Through this initiative, Adam Kurniawan Library continues to strengthen information literacy across disciplines and ensure that the President University community can fully optimize its digital collections. (Laurensius Yoel Fabian)
+
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/hukumonline2026.png)
