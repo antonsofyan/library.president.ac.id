@@ -17,3 +17,4 @@ In addition to database navigation, the webinar provided a comprehensive guide t
 
 Through this collaborative event, Adam Kurniawan Library continues to foster a strong research culture and promote ethical scholarly practices across President University. (Laurensius Yoel Fabian)
 
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/emerald 2026.png)
