@@ -44,3 +44,5 @@ Other activities included:
 4.  Parallel Call for Paper presentations held across four rooms according to the conference sub-themes: a. Artificial intelligence and emerging technologies in academic libraries. b. Developing future competencies and skills for librarians. c. Academic libraries as supporters of research, learning, and scholarly communication. d. Institutional adaptability, governance, and sustainable library transformation.
     
 5.  The 10th National Congress (Musyawarah Nasional ke-X). This highest organizational forum accepted the accountability report of the 2023–2026 Central Board delivered by Mariyah, S.Sos., M.Hum. (Universitas Indonesia) as General Chair of FPPTI for the 2023–2026 term, and elected Dr. Purwani Istiana, S.IIP., M.A. (Universitas Gadjah Mada) as the General Chair of FPPTI for the 2026–2029 term. (Neilany Edwina Nulampau)
+
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/fpptki2026.png)
