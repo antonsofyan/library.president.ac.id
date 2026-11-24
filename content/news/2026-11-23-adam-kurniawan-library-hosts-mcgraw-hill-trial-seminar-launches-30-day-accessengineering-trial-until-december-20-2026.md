@@ -26,3 +26,5 @@ Beyond individual professional development, achieving national librarian certifi
   
 
 Through this certification success, Adam Kurniawan Library reaffirms its commitment to continuously enhancing human resource competencies. By investing in certified professionals, the library strives to deliver reliable, innovative, and high-standard academic services for students, lecturers, and researchers across President University.(Laurensius Yoel Fabian)
+
+![Seminar Photo 3](https://library.president.ac.id/assets/img/news/pages-1/mcgraw.png)
